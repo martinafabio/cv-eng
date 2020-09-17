@@ -170,12 +170,6 @@ li:hover {
   color: #EAF6F6;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 70px;
-  /*era 30px credo*/
-}
 
 .copyright {
   color: #EAF6F6;
@@ -183,11 +177,6 @@ li:hover {
   padding: 20px 0;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
 
 .profile-pic {
   height: 200px;
@@ -213,32 +202,32 @@ li:hover {
 
 .work-icon {
   margin: auto;
-  width: auto;
   height: 100px;
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-left: 500px;
-  padding-bottom: 10px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 }
 
 .education-icon {
   margin: auto;
   height: 100px;
   width: auto;
-  padding-top: 50px;
-    padding-right: 10px;
-    padding-left: 500px;
-    padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
+
 
 .contact-icon {
   margin: auto;
-  width: auto;
   height: 100px;
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-left: 500px;
-  padding-bottom: 10px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 }
 
 .translation-icon {
