@@ -202,32 +202,35 @@ li:hover {
 
 .work-icon {
   margin: auto;
-  height: 100px;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+  height: 100px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 500px;
+  padding-bottom: 10px;
+
 }
 
 .education-icon {
   margin: auto;
-  height: 100px;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  height: 100px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 500px;
+  padding-bottom: 10px;
 }
 
 
 .contact-icon {
   margin: auto;
-  height: 100px;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+  height: 100px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 500px;
+  padding-bottom: 10px;
+
 }
 
 .translation-icon {
