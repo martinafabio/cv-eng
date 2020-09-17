@@ -293,7 +293,9 @@ li:hover {
 }
 
 .certificates {
-  margin:  auto auto 50px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
   }
 
 .contact-me {
