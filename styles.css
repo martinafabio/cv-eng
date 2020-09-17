@@ -1,0 +1,321 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  }
+
+h5 {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+  }
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+a {
+  color: #11999e;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+a.footer-link {
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/* navbar start */
+li {
+  display: block;
+  transition-duration: 0.5s;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+  color: #11999e;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monospace;
+}
+
+ul {
+  background: #11999e;
+  list-style: none;
+  margin: 0;
+  padding-right: 0;
+}
+
+li {
+  color: #66BFBF;
+  display: block;
+  float: right;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #11999e;
+}
+
+a:hover {
+  color: #66BFBF;
+}
+
+li:hover {
+  color: #11999e;
+}
+
+/* navbar end */
+
+
+.top-container {
+  background-color: #DFEAEB;
+  position: static;
+  /* era   position:relative;t */
+  padding-top: 90px;
+  /* era 100 px */
+  padding-bottom: 50px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.introintro {
+  font-size: 2rem;
+  width: 60%;
+  margin: auto;
+}
+
+.intro {
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+
+#copyright-site {
+  color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 70px;
+  /*era 30px credo*/
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile-pic {
+  height: 200px;
+  width: auto;
+  position: relative;
+    top: -50px;
+}
+
+.skill-icon {
+  width: auto;
+  float: right;
+  margin: 30px auto 30px auto;
+  height: 100px;
+}
+
+.soft-skill {
+  width: auto;
+  float: left;
+  margin: 30px 30px 30px auto;
+  height: 100px;
+}
+
+
+.work-icon {
+  margin: auto;
+  width: auto;
+  height: 100px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 500px;
+  padding-bottom: 10px;
+}
+
+.education-icon {
+  margin: auto;
+  height: 100px;
+  width: auto;
+  padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+}
+
+.contact-icon {
+  margin: auto;
+  width: auto;
+  height: 100px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 500px;
+  padding-bottom: 10px;
+}
+
+.translation-icon {
+  width: auto;
+  float: right;
+  margin-left: 30px;
+  height: 100px;
+}
+
+.btn {
+  box-shadow: inset 0 -3px 7px 0 #11899e;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11899e 100%);
+  background-color: #11cdd4;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding: 7px 12px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #263666;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #11899e 5%, #11cdd4 100%);
+  background-color: #11899e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container: {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.worklist {
+  text-decoration: none;
+}
+
+.workdescription {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.edudescription {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.certificates {
+  margin:  auto auto 50px;
+  }
+
+.contact-me {
+  margin: 50px auto 50px auto;
+  width: 16%;
+  padding: 10px auto auto 0;
+  text-align: center;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.experience {
+  margin: 80px auto 80px auto;
+  }
